@@ -1,0 +1,26 @@
+# From http://blog.sumyapp.com/2011/03/xcode4%E3%81%AE-gitignore-distribution%E3%83%93%E3%83%AB%E3%83%89%E3%81%AE%E4%BB%95%E6%96%B9-framwork%E3%81%AE%E8%BF%BD%E5%8A%A0/
+bin/*.app
+build
+*.mode1v3
+*.mode2v3
+*.pbxuser
+*.perspective
+*.perspectivev3
+*~.nib
+
+xcuserdata
+*.xcworkspace
+
+*~
+*.lock
+*.swp
+*.out
+Thumbs.db
+.DS_Store
+
+*.storyboard
+cems/Resources/MainStoryboard_iPhone.storyboard
+
+.vcproj
+.vcproj.user
+.sln
